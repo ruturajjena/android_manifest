@@ -6,7 +6,8 @@
            review="review.lineageos.org" />
 
   <remote  name="private"
-           fetch="ssh://git@github.com" />
+           fetch="ssh://git@github.com"
+           revision="oreo" />
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com"

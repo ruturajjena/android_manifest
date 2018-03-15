@@ -8,18 +8,17 @@
   <project path="external/DUtils" name="android_external_DUtils" remote="havoc" />
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="havoc" />
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="havoc" />
-  <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="havoc" />
   <project path="frameworks/opt/aicpgear" name="android_frameworks_opt_aicpgear" remote="havoc" />
   <project path="frameworks/opt/slimrecent" name="android_frameworks_opt_slimrecent" remote="havoc" />
   <project path="lineage-sdk" name="android_lineage-sdk" remote="havoc" />
   <project path="manifest" name="android_manifest" remote="havoc" />
-  <project path="packages/apps/HavocSettings" name="android_packages_apps_HavocSettings" remote="havoc" />
+ 
   <project path="packages/apps/Havoc_OTA" name="packages_apps_Havoc_OTA" remote="havoc" />
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" groups="pdk-fs" remote="havoc" />
   <project path="packages/apps/DUI" name="android_packages_apps_DUI" remote="havoc" />
   <project path="packages/apps/LineageParts" name="android_packages_apps_LineageParts" remote="havoc" />
   <project path="packages/apps/OmniStyle" name="android_packages_apps_OmniStyle" remote="havoc" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" groups="pdk-fs" remote="havoc" />
+ 
   <project path="packages/overlays/Havoc" name="android_packages_overlays_Havoc" remote="havoc" />
   <project path="packages/overlays/Lineage" name="android_packages_overlays_Lineage" remote="havoc" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="havoc" />
@@ -29,4 +28,7 @@
   <project path="system/core" name="android_system_core" groups="pdk" remote="havoc" />
   <project path="vendor/havoc" name="android_vendor_havoc" remote="havoc" />
 
+ <project path="packages/apps/Settings" name="ZeNiXxX/android_packages_apps_Settings"  remote="private" />
+ <project path="packages/apps/HavocSettings" name="ZeNiXxX/HavocSettings" remote="private" />
+ <project path="frameworks/base" name="android_frameworks_base" remote="havoc" />
 </manifest>
