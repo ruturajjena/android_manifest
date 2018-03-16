@@ -29,6 +29,6 @@
   <project path="vendor/havoc" name="android_vendor_havoc" remote="havoc" />
 
  <project path="packages/apps/Settings" name="ZeNiXxX/android_packages_apps_Settings"  remote="private" />
- <project path="packages/apps/HavocSettings" name="ZeNiXxX/HavocSettings" remote="private" />
- <project path="frameworks/base" name="android_frameworks_base" remote="havoc" />
+ <project path="packages/apps/HavocSettings" name="ZeNiXxX/HavocSettings" remote="private"  revision="wip" />
+ <project path="frameworks/base" name="ZeNiXxX/android_frameworks_base" remote="private" />
 </manifest>
