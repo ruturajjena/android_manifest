@@ -13,6 +13,7 @@
   <project path="lineage-sdk" name="android_lineage-sdk" remote="havoc" />
   <project path="manifest" name="android_manifest" remote="havoc" />
  
+  <project path="hardware/interfaces" name="android_hardware_interfaces" groups="pdk" remote="havoc" />
   <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="havoc" >
     <copyfile dest="hardware/lineage/Android.bp" src="Android.bp"/>
   </project>
