@@ -38,5 +38,5 @@
 
  <project path="packages/apps/Settings" name="ZeNiXxX/android_packages_apps_Settings"  remote="private" />
  <project path="packages/apps/HavocSettings" name="ZeNiXxX/HavocSettings" remote="private" />
- <project path="frameworks/base" name="ZeNiXxX/android_frameworks_base" remote="private" />
+ <project path="frameworks/base" name="ZeNiXxX/android_frameworks_base" remote="private" revision="wip" />
 </manifest>
