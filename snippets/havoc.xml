@@ -24,7 +24,6 @@
   <project path="packages/apps/DUI" name="android_packages_apps_DUI" remote="havoc" />
   <project path="packages/apps/LineageParts" name="android_packages_apps_LineageParts" remote="havoc" />
   <project path="packages/apps/OmniStyle" name="android_packages_apps_OmniStyle" remote="havoc" />
-  <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="havoc" />
  
   <project path="packages/overlays/Havoc" name="android_packages_overlays_Havoc" remote="havoc" />
   <project path="packages/overlays/Lineage" name="android_packages_overlays_Lineage" remote="havoc" />
@@ -39,4 +38,5 @@
  <project path="packages/apps/Settings" name="ZeNiXxX/android_packages_apps_Settings" remote="private" />
  <project path="packages/apps/HavocSettings" name="ZeNiXxX/HavocSettings" remote="private" />
  <project path="frameworks/base" name="ZeNiXxX/android_frameworks_base" remote="private" />
+ <project name="omnirom/android_packages_apps_OmniSwitch" path="packages/apps/OmniSwitch" remote="github" revision="android-8.1" />
 </manifest>
