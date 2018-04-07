@@ -19,24 +19,27 @@
   </project>
   <project path="hardware/lineage/lineagehw" name="android_hardware_lineage_lineagehw" remote="havoc" />
   
-  <project path="packages/apps/Havoc_OTA" name="android_packages_apps_Havoc_OTA" remote="havoc" />
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" groups="pdk-fs" remote="havoc" />
   <project path="packages/apps/DUI" name="android_packages_apps_DUI" remote="havoc" />
+  <project path="packages/apps/Havoc_OTA" name="android_packages_apps_Havoc_OTA" remote="havoc" />
   <project path="packages/apps/LineageParts" name="android_packages_apps_LineageParts" remote="havoc" />
   <project path="packages/apps/OmniStyle" name="android_packages_apps_OmniStyle" remote="havoc" />
+  <project path="packages/apps/OmniSwitch" name="omnirom/android_packages_apps_OmniSwitch" remote="github" revision="android-8.1" />
+  <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="havoc" />
  
   <project path="packages/overlays/Havoc" name="android_packages_overlays_Havoc" remote="havoc" />
-  <project path="packages/overlays/Lineage" name="android_packages_overlays_Lineage" remote="havoc" />
+  
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="havoc" />
   <project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="havoc" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="havoc" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="havoc" />
+  
   <project path="system/core" name="android_system_core" groups="pdk" remote="havoc" />
   <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="havoc" /> 
+  
   <project path="vendor/havoc" name="android_vendor_havoc" remote="havoc" />
 
  <project path="packages/apps/Settings" name="ZeNiXxX/android_packages_apps_Settings" remote="private" />
  <project path="packages/apps/HavocSettings" name="ZeNiXxX/HavocSettings" remote="private" />
  <project path="frameworks/base" name="ZeNiXxX/android_frameworks_base" remote="private" />
- <project name="omnirom/android_packages_apps_OmniSwitch" path="packages/apps/OmniSwitch" remote="github" revision="android-8.1" />
 </manifest>
