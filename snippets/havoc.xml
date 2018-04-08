@@ -27,7 +27,9 @@
   <project path="packages/apps/OmniSwitch" name="omnirom/android_packages_apps_OmniSwitch" remote="github" revision="android-8.1" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="havoc" />
  
-  <project path="packages/overlays/Havoc" name="android_packages_overlays_Havoc" remote="havoc" />
+  <project path="packages/overlays/Accents" name="android_packages_overlays_Accents" remote="havoc" />
+  <project path="packages/overlays/Black" name="android_packages_overlays_Black" remote="havoc" />
+  <project path="packages/overlays/Dark" name="android_packages_overlays_Dark" remote="havoc" />
   
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="havoc" />
   <project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="havoc" />
