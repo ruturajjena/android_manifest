@@ -14,11 +14,7 @@
   <project path="manifest" name="android_manifest" remote="havoc" />
  
   <project path="hardware/interfaces" name="android_hardware_interfaces" groups="pdk" remote="havoc" />
-  <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="havoc" >
-    <copyfile dest="hardware/lineage/Android.bp" src="Android.bp"/>
-  </project>
-  <project path="hardware/lineage/lineagehw" name="android_hardware_lineage_lineagehw" remote="havoc" />
-  
+ 
   <project path="packages/apps/DUI" name="android_packages_apps_DUI" remote="havoc" />
   <project path="packages/apps/Havoc_OTA" name="android_packages_apps_Havoc_OTA" remote="havoc" />
   <project path="packages/apps/LineageParts" name="android_packages_apps_LineageParts" remote="havoc" />
